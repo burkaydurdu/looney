@@ -2,7 +2,7 @@
 
  :jvm-opts ["-Xmx1G"]
 
- :source-paths ["src"]
+ :source-paths ["src" "test"]
 
  :dependencies
  [[reagent "1.0.0"]
