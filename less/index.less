@@ -1,0 +1,69 @@
+.app {
+  width: 100%;
+  text-align: center;
+
+  .home {
+    display: inline-flex;
+    flex-direction: row;
+
+    input {
+      padding: 10px;
+      border: 1px solid #D9DBE5;
+      border-radius: 3px;
+      width: 200px;
+    }
+
+    button {
+      background: transparent;
+      border: 1px solid #D9DBE5;
+      color: #1A2534;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  }
+
+  .wall {
+    .action-box {
+      display: inline-flex;
+      flex-direction: row;
+      input {
+        padding: 10px;
+        border: 1px solid #D9DBE5;
+        border-radius: 3px;
+        width: 200px;
+      }
+
+      button {
+        background: transparent;
+        border: 1px solid #D9DBE5;
+        color: #1A2534;
+        margin-left: 10px;
+        cursor: pointer;
+      }
+    }
+    .message-box {
+      width: 60%;
+      margin: auto;
+      .wall-card {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        .circle-avatar {
+          width: 50px;
+          height: 50px;
+          border-radius: 25px;
+          margin-right: 10px;
+        }
+        .content {
+          max-width: 600px;
+          text-align: start;
+          .message {
+            color: #1A2534;
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
